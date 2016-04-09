@@ -26,3 +26,10 @@
 *.exe
 *.out
 *.app
+
+# everything but C, h and .txt
+*
+!*.txt
+!*.C
+!*.h
+
