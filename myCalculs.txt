@@ -1,0 +1,8 @@
+Es-tu heureux?;NON;5
+Es-tu heureux?;OUI;5
+6+5 = 12?;NON;2
+6+5 = 12?;NON;2
+6+5 = 12?;NON;2
+6+5 = 12?;NON;2
+6+5 = 12?;NON;2
+6+5 = 12?;NON;2
