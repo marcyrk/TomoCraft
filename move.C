@@ -69,10 +69,10 @@ int Move::setMoveMood(int mood){
                                 sleep(3);
                                 this->myHead.sayNO(500);
                                 
-                                for(int j =0; j<255;j++){
+                                for(int j =0; j<120;j++){
                                 this->myScreen.write("SUPER FORME !!!,1,0")
                                 sleep(5);
-                                this->myScreen.setRGB(j,255-j,j)
+                                this->myScreen.setRGB(j,255-j,j+j)
                                 }
                         } 
 
@@ -102,6 +102,9 @@ int Move::react(int answer, int star){
 			this->myEyes.ON();                           
                         this->myFeels.addKokoro(star);  
 			break;
+			
+		case 2:
+			this->myFeels.getKo
 
 
 	}
