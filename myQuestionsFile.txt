@@ -1,5 +1,10 @@
-Salut ca va?;Oui;5
-Il fait beau?;Oui;5
-Tu es bete?;Non;5
-Tu as peur?;Non;5
-Au revoir!;Non;10
+Salut ca va?;OUI;5
+Il fait beau?;OUI;5
+Tu es bete?;NON;5
+Tu as peur?;NON;5
+2+2 = 3?;NON;10
+Tu aimes les Pokemons?;OUI;20
+Es-tu mon ami?;OUI;10
+6*7+3=45?;OUI;15
+Crois-tu en toi?;OUI;20
+Je veux être seul!;NON;10
