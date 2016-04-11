@@ -56,7 +56,25 @@ int Move::setMoveMood(int mood){
                                 this->myHead.sayNO(500);             
                         }                                      
                         break;  
-		//case 3:
+		case 3:
+			for(int i = 0 ; i < 4 ; i++){          
+                                this->myEyes.blink(5, 5000);
+				this->myVoice.playSound(SOL_d, 250000);
+				this->myVoice.stopSound();         
+                                this->myHead.sayNO(500);
+                                sleep(3);
+                                this->myHead.sayNO(500);
+                                sleep(3);
+                                this->myHead.sayNO(500);
+                                sleep(3);
+                                this->myHead.sayNO(500);
+                                
+                                for(int j =0; j<255;j++){
+                                this->myScreen.write("SUPER FORME !!!,1,0")
+                                sleep(5);
+                                this->myScreen.setRGB(j,255-j,j)
+                                }
+                        } 
 
 			break;
 
